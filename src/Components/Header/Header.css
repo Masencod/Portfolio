@@ -1,0 +1,64 @@
+.header_container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    padding: 10px 20px;
+    z-index: 99;
+}
+.header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../../assets/Inkedheader_bg_LI.jpg);
+    background-position: bottom;
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.header_body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+.logo {
+    height: 60px;
+}
+.header__links {
+    display: flex;
+    column-gap: 20px;
+    
+}
+.header__links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.header__bg {
+    position: fixed;
+    top: 25%;
+    z-index: 0;
+    width: 100%;
+}
+.header__text {
+    width: 60%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header__text .text__top {
+    align-self: start;
+    font-size: 40px;
+    font-weight: 700;
+}
+.header__text .text__bot {
+    align-self: flex-end;
+    font-size: 32px;
+    font-weight: 500;
+}
