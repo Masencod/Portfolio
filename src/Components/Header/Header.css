@@ -1,5 +1,4 @@
 .header_container {
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -9,7 +8,6 @@
     z-index: 99;
 }
 .header {
-    position: relative;
     background-color: rgb(0, 0, 0);
     background-image: url(../../assets/Inkedheader_bg_LI.jpg);
     background-position: bottom;
@@ -19,7 +17,6 @@
     background-attachment: fixed;
 }
 .header_body {
-    position: relative;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -36,7 +33,7 @@
 }
 .header__links a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(219, 219, 219);
 }
 .header__bg {
     position: fixed;
@@ -45,8 +42,8 @@
     width: 100%;
 }
 .header__text {
-    width: 60%;
-    margin-top: 150px;
+    width: 70%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,4 +58,20 @@
     align-self: flex-end;
     font-size: 32px;
     font-weight: 500;
+}
+@media only screen and (max-width: 460px) {
+    .header__text .text__top {
+        align-self: start;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .header__text .text__bot {
+        align-self: flex-end;
+        font-size: 20px;
+    }
+    .header__links {
+        display: flex;
+        column-gap: 10px;
+        font-size: 12px;
+    }
 }
