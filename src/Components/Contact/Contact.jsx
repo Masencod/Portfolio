@@ -28,7 +28,7 @@ const Contact = () => {
                 <span className="material-symbols-rounded lg:text-lg">
                     <img className='h-8' src={gotti} alt="" />
                 </span>
-                <p className=" lg:text-lg"> <a className="no-underline hover:text-fuchsia-200 transition duration-500 ease-in-out" href="https://github.com/Masencod">https://github.com/Masencod</a></p>
+                <p className=" lg:text-lg"> <a target="_blank" rel="noopener noreferrer" className="no-underline hover:text-fuchsia-200 transition duration-500 ease-in-out" href="https://github.com/Masencod">https://github.com/Masencod</a></p>
             </div>
         
     </div>
