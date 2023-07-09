@@ -22,11 +22,11 @@ const AboutMe = () => {
         <h3 className='font-semibold mb-3'>About me</h3>
         <p align="justify">Hello, my name is Seyed Sajjad Ghorashi and this is my portfolio website. I graduated from IUST with a degree in material engineering, but I decided to change career and pursue coding and front-end development. (I had a knack for computer based things and graphic design and I used to work with tools like Photoshop and After Effect, so I loved creating and manipulating data and visual elements on the web.) This website is a showcase of my skills and projects that I have done as part of my learning journey. I used various technologies and frameworks such as HTML, CSS, JavaScript, React, Tailwind, and other React libraries to build this website. I learned a lot of new things and improved my coding abilities through my journey in Daneshkar's React Bootcamp. My goal is to keep growing as a front-end developer and learn more about the latest concepts and technologies in this field.</p>
       </div>
-      <div className='w-2/5 p-5 bg-slate-50 text-black rounded-md shadow-md hover:shadow-xl transition-all duration-500 ease-in-out'>
+      <div className='sm:w-2/5 p-5 bg-slate-50 text-black rounded-md shadow-md hover:shadow-xl transition-all duration-500 ease-in-out'>
         <h3 className='text-center p-3 font-semibold'>My NEO test ( it's in persian )</h3>
         <a target="_blank" rel="noopener noreferrer" href="neo-test.pdf"><img src="/neo.png" alt="" /></a>
       </div>
-      <div className='w-2/5 p-5 bg-slate-50 text-black rounded-md shadow-md hover:shadow-xl transition-all duration-500 ease-in-out'>
+      <div className='sm:w-2/5 p-5 bg-slate-50 text-black rounded-md shadow-md hover:shadow-xl transition-all duration-500 ease-in-out'>
         <h3 className='text-center p-3 font-semibold'>My Holland test ( it's in persian )</h3>
         <a target="_blank" rel="noopener noreferrer" href="/holland-test.pdf"><img src="/hol.png" alt="" /></a>
       </div>
