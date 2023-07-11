@@ -29,7 +29,7 @@ const Card = ({ name,url,verc }) => {
     return (
         <motion.div>
             <div className="flex gap-2 flex-col">
-                <img className='w-80' src={`https://api.screenshotone.com/take?url=${verc}&access_key=tZ1AoNIyQapS5g`}  alt={`A screenshot of ${name}`}/>
+                <img className='w-80' src={`https://api.screenshotone.com/take?url=${verc}&access_key=4tO_Xly_ln6xuw`}  alt={`A screenshot of ${name}`}/>
                 <img className="w-80" src={`https://opengraph.githubassets.com/12345/masencod/${name}`} alt="github" />
                 <div className="flex justify-between items-center mt-5">
                     <a href={url} target="_blank" rel="noopener noreferrer" className="transition-all font-semibold ease-in-out hover:text-fuchsia-600 hover:font-semibold duration-300">{name}</a>
