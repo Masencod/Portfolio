@@ -16,7 +16,7 @@ const EachProject = () => {
 
   return (
     <div className="flex flex-wrap justify-center items-center gap-3">
-        {repo.map((e) => {
+        {repo.length > 0 && repo.map((e) => {
             return (
                 <div key={e.id}  className="bg-white p-10 shadow-md rounded-md">
                     <Card url={e.html_url} name={e.name} verc={e.homepage}/>
