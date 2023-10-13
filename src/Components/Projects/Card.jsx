@@ -5,6 +5,8 @@ import rose from "../../assets/rose.png"
 import stopwatch from "../../assets/stopwatch.png"
 import wow from "../../assets/wow-character-optimizer.png"
 import work_hour from "../../assets/work-hour.png"
+import muffin from "../../assets/muffin.png"
+import jabama from "../../assets/jabama.png"
 import work_hour_sum from "../../assets/work-hour-sum.png"
 import { motion } from "framer-motion"
 
@@ -14,6 +16,8 @@ const cardImages = {
     "Rose": rose,
     "stopwatch": stopwatch,
     "Wow-Character-optimizer": wow,
+    "Jabama-clone": jabama,
+    "muffin": muffin,
     "work-hour": work_hour,
 }
 
