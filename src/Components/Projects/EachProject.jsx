@@ -24,13 +24,6 @@ const EachProject = () => {
 
   return (
     <div className="flex flex-wrap justify-center items-center gap-3">
-        {repo.length > 0 && repo.filter((item) => goodRepos.includes(item.name)).map((e) => {
-            return (
-                <div key={e.id}  className="bg-white p-10 shadow-md rounded-md">
-                    <Card url={e.html_url} name={e.name} verc={e.homepage}/>
-                </div>
-            )
-        })}
         <div className="bg-white p-10 shadow-md rounded-md">
           <Card url={"https://github.com/Masencod/Work-hour"} name={"work-hour"} verc={"https://work-hour.netlify.app/"} />
         </div>
@@ -40,6 +33,13 @@ const EachProject = () => {
         <div className="bg-white p-10 shadow-md rounded-md">
           <Card url={"https://github.com/sahmir95/JaBaMa"} gname={"JaBaMa"} guser={"sahmir95"} name={"Jabama-clone"} verc={"https://jabama-sahmir95.vercel.app/"} />
         </div>
+        {repo.length > 0 && repo.filter((item) => goodRepos.includes(item.name)).map((e) => {
+            return (
+                <div key={e.id}  className="bg-white p-10 shadow-md rounded-md">
+                    <Card url={e.html_url} name={e.name} verc={e.homepage}/>
+                </div>
+            )
+        })}
     </div>
   )
 
