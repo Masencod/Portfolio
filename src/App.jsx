@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import './App.css'
 import Header from './Components/Header/Header'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Contact from './Components/Contact/Contact'
 import Projects from './Components/Projects/Projects'
 import logo from "../src/assets/logo.png";
+import './App.css'
+
 
 
 
 function App() {
-//i know this situation is bad and i wanna make a comopnent out of the nav here but it was for a assignment, also we learned tailwind halfway through the project thats why its janky rn.
   return (
     <>
         <div className="header_container sticky top-0 left-0 w-full">

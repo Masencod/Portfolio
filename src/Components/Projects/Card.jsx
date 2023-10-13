@@ -1,14 +1,11 @@
 import vercel from '../../assets/vercel.svg'
-import gitti from '../../assets/gitti.png'
-import azki from "../../assets/Azki.png"
-import portfolio from "../../assets/Portfolio.png"
-import rose from "../../assets/Rose.png"
+import azki from "../../assets/azki.png"
+import portfolio from "../../assets/portfolio.png"
+import rose from "../../assets/rose.png"
 import stopwatch from "../../assets/stopwatch.png"
-import wow from "../../assets/Wow-Character-optimizer.png"
+import wow from "../../assets/wow-character-optimizer.png"
 import work_hour from "../../assets/work-hour.png"
 import work_hour_sum from "../../assets/work-hour-sum.png"
-import { useState } from "react"
-import { useEffect } from "react"
 import { motion } from "framer-motion"
 
 const cardImages = {
@@ -32,7 +29,7 @@ const Card = ({ name,url,verc , gname , guser}) => {
                 </div>
             </div>
         </motion.div>
-  )
+    )
 }
 
 export default Card
